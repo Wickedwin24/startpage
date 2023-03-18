@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Startpage Search Engine</title>
+</head>
+
+<body>
+  <div class="background-overlay">
+    <div class="search-container">
+      <form class="search-form">
+        <div class="search-input-container">
+          <input type="text" class="search-input" placeholder="Search" />
+          <button type="submit" class="search-button"><span class="material-icons">search</span></button>
+        </div>
+        <ul class="link-list">
+          <li><a href="#" class="link">"My AI"</a></li>
+          <li><a href="#" class="link">Bing</a></li>
+          <li><a href="#" class="link">Google</a></li>
+          <li><a href="#" class="link">Brave</a></li>
+          <li><a href="#" class="link">YouTube</a></li>
+          <li><a href="#" class="link">Facebook</a></li>
+          <li><a href="#" class="link">Twitter</a></li>
+        </ul>
+      </form>
+      <div class="upload-container">
+        <p>Or upload your custom background:</p>
+        <label for="image-upload" class="upload-label">Choose File</label>
+        <input type="file" id="image-upload" class="upload-input" accept="image/*" />
+      </div>
+    </div>
+  </div>
+
+  <div class="alert" id="alert">Background updated!</div>
+
+</body>
+
+<script type="text/javascript" src="./main.js"></script>
+
+</html>
+
